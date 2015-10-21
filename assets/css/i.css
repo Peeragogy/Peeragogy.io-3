@@ -529,6 +529,14 @@ header.site-header nav {
         color: #d9d9d9;
         text-transform: uppercase;
         margin-top: 22px; }
+
+        .article header hgroup .version{
+        font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial";
+        font-size: 19px;
+        font-weight: bold;
+        color: #d9d9d9;
+        text-transform: uppercase;
+        margin-top: 22px; }
     .article header .intro {
       text-align: left; }
 
@@ -613,9 +621,10 @@ header.site-header nav {
         font-style: italic; }
     .archive-wrap .post-list .summary {
       font-size: 18px;
-      line-height: 1.45em; }
+      line-height: 1.45em; 
+       margin-bottom: 5px; }
     .archive-wrap .post-list .date {
-      margin-bottom: 3px; }
+      margin-bottom: 5px; }
     .archive-wrap .post-list .date time {
       position: relative;
       top: -3px;
