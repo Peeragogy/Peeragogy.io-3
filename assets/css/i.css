@@ -753,7 +753,7 @@ footer {
     footer section:after {
       clear: both; }
     footer section {
-      zoom: 1; }
+      zoom: ; }
   footer small {
     text-align: center;
     display: block;
