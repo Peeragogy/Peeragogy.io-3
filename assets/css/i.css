@@ -23,7 +23,7 @@ body {
   line-height: 1; }
 
 ul {
- display: list-item
+ display: block;
  list-style-type: disc;
  list-style-position: outside;
  list-style-image: none; }
@@ -255,14 +255,13 @@ blockquote, blockquote p {
   color: #3c3c3c;
   margin-bottom: 33px; }
 
-<<<<<<< HEAD
 code {
   color: #24536b;
   font-family: "Monaco", "Courier New", "Courier";
   margin-left: 33px;
   font-size: .9em;
 }
-=======
+
 /*   Code Formatting    */
 code {
   color: #24536b;
@@ -275,7 +274,6 @@ code {
   padding: 12px;
   border-radius: 4px;
   margin-bottom: 33px;
-<<<<<<< HEAD
   overflow-x: scroll;
 }
 .highlight code {
@@ -297,24 +295,26 @@ code {
 .highlight code .s {
   color: #87ceeb;
 }
->>>>>>> dev
-=======
-  overflow-x: scroll; }
-  .highlight code {
-    color: #f9f9f9;
-    font-family: "Monaco", "Courier New", "Courier";
-    font-size: .9em; }
-    .highlight code .lineno {
-      margin-right: 16.5px;
-      color: #d9d9d9;
-      line-height: 2em; }
-    .highlight code .nt {
-      color: #c85b5c; }
-    .highlight code .na {
-      color: #f0e687; }
-    .highlight code .s {
-      color: #87ceeb; }
->>>>>>> dev
+.highlight code {
+  color: #f9f9f9;
+  font-family: "Monaco", "Courier New", "Courier";
+  font-size: .9em;
+ }
+.highlight code .lineno {
+  margin-right: 16.5px;
+  color: #d9d9d9;
+  line-height: 2em; 
+}
+.highlight code .nt {
+   color: #c85b5c;
+}
+.highlight code .na {
+  color: #f0e687; 
+}
+.highlight code .s {
+  color: #87ceeb;
+}
+
 
 hr {
   display: block;
@@ -356,7 +356,7 @@ input {
 #bump {
   min-height: 100%;
   height: auto;
-  margin: 0 auto-320px; }
+  margin: 0px ; }
 
 .wrap {
   max-width: 960px;
@@ -373,7 +373,7 @@ input {
   .wrap:after {
     clear: both; }
   .wrap {
-    zoom: ; }
+    zoom: auto; }
 
 .post {
   display: inline;
@@ -761,7 +761,7 @@ footer {
     position: absolute;
     bottom: 8px;
     font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
-      font-size: 24px
+    font-size: 14px;
     text-transform: uppercase;
     color: rgba(249, 249, 249, 0.4); }
   footer .list-title {
@@ -790,7 +790,7 @@ footer {
       footer .prev-posts li:after {
         clear: both; }
       footer .prev-posts li {
-        zoom: ; }
+        zoom: auto; }
       footer .prev-posts li .recent-title {
         display: inline;
         float: left;
