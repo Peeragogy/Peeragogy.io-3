@@ -373,7 +373,7 @@ input {
   .wrap:after {
     clear: both; }
   .wrap {
-    zoom: 1; }
+    zoom: ; }
 
 .post {
   display: inline;
@@ -790,7 +790,7 @@ footer {
       footer .prev-posts li:after {
         clear: both; }
       footer .prev-posts li {
-        zoom: 1; }
+        zoom: ; }
       footer .prev-posts li .recent-title {
         display: inline;
         float: left;
