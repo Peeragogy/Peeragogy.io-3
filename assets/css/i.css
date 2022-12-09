@@ -22,6 +22,23 @@ footer, header, hgroup, menu, nav, section {
 body {
   line-height: 1; }
 
+button {
+  background-color: #2c9abe;
+   /* Black */
+   color: white;
+   padding: 15px 32px;
+   border-radius: 8px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 15px;
+  cursor: pointer;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+ }
+
 ul {
  display: block;
  list-style-type: disc;
@@ -239,6 +256,7 @@ strong {
 
 small {
   font-size: 16px; }
+  
 
 .hilite {
   display: inline-block;
@@ -497,6 +515,17 @@ header.site-header nav {
     position: absolute;
     z-index: 2;
     background: rgba(0, 0, 0, 0.2); }
+  
+.article .overlay2 {
+  vertical-align: middle;
+  min-height: 160px;
+  height: 10vh;
+  width: 100%;
+  max-height: 800px;
+  position: absolute;
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.2);
+}
   .article .featured-image {
     vertical-align: middle;
     min-height: 360px;
@@ -512,6 +541,23 @@ header.site-header nav {
     position: relative;
     top: 0;
     z-index: -1; }
+
+    .article .featured-image2 {
+      vertical-align: middle;
+      min-height: 160px;
+      height: 20vh;
+      width: 100%;
+      max-height: 800px;
+      background-position: center center;
+      background-size: cover;
+      vertical-align: middle;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      position: relative;
+      top: 0;
+      z-index: -1;
+    }
     .article .featured-image img {
       max-height: 800px; }
   .article header {
@@ -760,8 +806,9 @@ footer {
     width: 100%;
     position: absolute;
     bottom: 8px;
+    padding-top: 16px;
     font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
-    font-size: 14px;
+    font-size: 12px;
     text-transform: uppercase;
     color: rgba(249, 249, 249, 0.4); }
   footer .list-title {
